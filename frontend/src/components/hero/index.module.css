@@ -1,0 +1,172 @@
+
+.heroSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.heroTextWrapper {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.heroBackground{
+    position: absolute;
+    z-index: -1;
+    color: rgba(35, 61, 182, .7);
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+}
+
+.heroBackground span:nth-child(1){
+    font-size: 3rem;
+    position: absolute;
+    top: 100px;
+    left: -500px;
+    color: rgba(35, 61, 182, 0.2);
+}
+
+.heroBackground span:nth-child(2){
+    font-size: 1.2rem;
+    position: absolute;
+    top: -100px;
+    left: 150px;
+    color: rgba(35, 61, 182, 0.1);
+}
+
+.heroBackground span:nth-child(3){
+    font-size: 1.3rem;
+    position: absolute;
+    top: 120px;
+    left: -200px;
+    color: rgba(35, 61, 182, 0.15);
+}
+
+.heroBackground span:nth-child(4){
+    font-size: 1rem;
+    position: absolute;
+    top: 50px;
+    left: -500px;
+    color: rgba(35, 61, 182, 0.09);
+}
+
+.heroBackground span:nth-child(5){
+    font-size: 2.5rem;
+    position: absolute;
+    top: 110px;
+    left: -500px;
+    color: rgba(35, 61, 182, 0.15);
+}
+
+.heroBackground span:nth-child(6){
+    font-size: 0.9rem;
+    position: absolute;
+    top: 100px;
+    left: 110px;
+    color: rgba(35, 61, 182, 0.1);
+}
+
+.heroBackground span:nth-child(7){
+    font-size: 1.4rem;
+    position: absolute;
+    top: 5px;
+    left: 150px;
+    color: rgba(35, 61, 182, 0.1);
+}
+
+.heroBackground span:nth-child(8){
+    font-size: 2.5rem;
+    position: absolute;
+    top: -200px;
+    left: -450px;
+    color: rgba(35, 61, 182, 0.09);
+}
+
+.heroBackground span:nth-child(9){
+    font-size: 1.5rem;
+    position: absolute;
+    top: -70px;
+    left: -50px;
+    color: rgba(35, 61, 182, 0.1);
+}
+
+.heroBackground span:nth-child(10){
+    font-size: 1.2rem;
+    position: absolute;
+    top: -100px;
+    left: -350px;
+    color: rgba(35, 61, 182, 0.2);
+}
+
+.heroBackground span:nth-child(11){
+    font-size: 0.9rem;
+    position: absolute;
+    top: 50px;
+    left: -350px;
+    color: rgba(35, 61, 182, 0.1);
+}
+
+.heroBackground span:nth-child(12){
+    font-size: 1rem;
+    position: absolute;
+    top: 75px;
+    left: -600px;
+    color: rgba(35, 61, 182, 0.1);
+}
+
+.heroTextWrapper h1 {
+    font-size: 5.5rem;
+    font-weight: bolder;
+    color: #233DB6;
+    text-align: center;
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+}
+
+.heroTextWrapper p {
+    font-size: 1.7rem;
+    color: #233DB6;
+    text-align: center;
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+}
+
+.heroTextWrapper h1, .heroTextWrapper p{
+    transform: translateX(-30px);
+}
+
+@media screen and (min-width: 1500px){
+    .heroTextWrapper h1 {
+        font-size: 7rem;
+    }
+
+    .heroBackground span:nth-child(1){
+        font-size: 2rem;
+        top: -150px;
+        left: -200px;
+    }
+    
+    .heroBackground span:nth-child(2){
+        font-size: 1.8rem;
+        top: -115px;
+        left: 100px;
+    }
+    
+    .heroBackground span:nth-child(3){
+        font-size: 1.8rem;
+        top: 140px;
+        left: -50px;
+    }
+    
+    .heroBackground span:nth-child(4){
+        font-size: 1.3rem;
+        top: -30px;
+        left: -450px;
+}
+}

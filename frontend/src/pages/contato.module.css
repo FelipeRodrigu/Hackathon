@@ -1,0 +1,47 @@
+.contactContainer {
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #555; /* Todas as informações em preto */
+    font-family: "Fira Sans", serif;
+  }
+  
+  .contactHeading {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #233db6;
+  }
+  
+  .contactText {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #555;
+  }
+  
+  .contactList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contactListItem {
+    margin: 10px 0;
+    font-size: 1.1em;
+    text-align: center;
+    color: #555; /* Define as informações de contato em preto */
+  }
+  
+  .contactListItem strong {
+    font-weight: bold; /* Deixa a primeira parte em negrito */
+  }
+  
+  .contactListItem a {
+    color: #555; /* Links em preto */
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .contactListItem a:hover {
+    text-decoration: underline;
+  }

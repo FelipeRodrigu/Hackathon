@@ -1,0 +1,10 @@
+.smallNewsGridContainer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 1rem;
+    margin-top: 20px;
+    row-gap: 5rem;
+    margin-bottom: 100px;
+}

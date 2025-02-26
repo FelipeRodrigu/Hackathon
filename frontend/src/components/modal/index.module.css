@@ -1,0 +1,86 @@
+.overlay {
+    background-color: rgba(0, 0, 0, 0.75); /* O fundo escuro transparente para o overlay */
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal {
+    background-color: white; /* Cor do fundo do modal */
+    color: #233db6; /* Cor do texto */
+    border-radius: 15px;
+    max-width: 500px;
+    width: 90%;
+    padding: 2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    z-index: 1010;
+    position: relative;
+  }
+  
+  .modal h2 {
+    margin-bottom: 15px;
+    color: #233db6;
+    text-align: center;
+    font-family: "Fira Sans", serif;
+  }
+  
+  .modal form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modal form input,
+  .modal form textarea,
+  .modal form select {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  
+  .modal form button {
+    background-color: #233db6;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: "Fira Sans", serif;
+  }
+  
+  .modal form button:hover {
+    background-color: #fff;
+    color: #233db6;
+    border: #233db6 1px solid;
+  }
+  
+  .modal form button.cancel {
+    background-color: #FF7420;
+    color: #fff;
+    border: #FF7420 1px solid;
+  }
+  
+  .modal form button.cancel:hover {
+    background-color: #ffffff;
+    color: #233db6;
+    border: #233db6 1px solid;
+  }
+  
+  .modal form input:focus,
+  .modal form textarea:focus,
+  .modal form select:focus {
+    border: 1px solid #233db6;
+    outline: none;
+  }

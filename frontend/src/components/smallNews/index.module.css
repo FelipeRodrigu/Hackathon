@@ -1,0 +1,238 @@
+.none {
+    display: none;
+}
+
+.smallNewsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+    font-family: "Fira Sans", serif;
+}
+
+.smallNewsImg {
+    width: 65%;
+    transform: translateX(20px);
+}
+
+.smallNewsImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px 0px #000000;
+}
+
+.smallNewsWrapper {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Centralizado no eixo X */
+    margin-left: 40px;
+    text-align: center; /* Textos centralizados */
+}
+
+.smallNewsWrapper h3 {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #000000;
+    margin-top: 30px;
+}
+
+.smallNewsWrapper p {
+    margin-top: 10px;
+}
+
+.smallNewsWrapper p:nth-child(2) {
+    font-size: 1rem;
+    color: #000000;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.smallNewsWrapper p:nth-child(3),
+.smallNewsWrapper p:nth-child(4) {
+    font-size: 1rem;
+    color: #000000;
+}
+
+.smallNewsLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 800;
+    font-family: "Fira Sans", serif;
+    border: 2px solid #233DB6;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    background-color: #233DB6;
+}
+
+.smallNewsLink:hover {
+    background-color: #fff;
+    color: #233DB6;
+    transition: all 0.3s ease;
+}
+
+.smallNewsLink:hover a {
+    color: #233DB6;
+}
+
+.smallNewsLink a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.buttonContainer {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.editButton {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #28A745; /* Verde */
+    background-color: #28A745; /* Verde */
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.editButton:hover {
+    background-color: #fff;
+    color: #28A745;
+}
+
+.deleteButton {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #DC3545; /* Vermelho */
+    background-color: #DC3545; /* Vermelho */
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.deleteButton:hover {
+    background-color: #fff;
+    color: #DC3545;
+}
+
+.editButton:focus,
+.deleteButton:focus {
+    outline: none;
+}
+
+.smallNewsModal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background-color: white;
+    color: #233db6;
+    border-radius: 15px;
+    max-width: 500px;
+    width: 90%;
+    padding: 2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    z-index: 1010;
+    position: relative;
+}
+
+.modal h2 {
+    margin-bottom: 10px;
+    color: #233db6;
+    text-align: center;
+    font-family: "Fira Sans", serif;
+}
+
+.modal form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal form input,
+.modal form textarea,
+.modal form select {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.modal form button {
+    background-color: #233db6;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: "Fira Sans", serif;
+}
+
+.modal form button:hover {
+    background-color: #fff;
+    color: #233db6;
+    border: #233db6 1px solid;
+}
+
+.modal form button.cancel {
+    background-color: #FF7420;
+    color: #fff;
+    border: #FF7420 1px solid;
+}
+
+.modal form button.cancel:hover {
+    background-color: #ffffff;
+    color: #233db6;
+    border: #233db6 1px solid;
+}
+
+.modal form input:focus,
+.modal form textarea:focus,
+.modal form select:focus {
+    border: 1px solid #233db6;
+    outline: none;
+}

@@ -1,0 +1,36 @@
+.siteFooter {
+    background-color: #233db6;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    font-family: "Fira Sans", serif;
+    margin-top: auto;  /* Empurra o footer para o fim do container flex */
+}
+
+.footerContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footerNav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footerNav a:hover {
+    text-decoration: underline;
+}
+
+.socialMedia a {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.socialMedia a:hover {
+    text-decoration: underline;
+}

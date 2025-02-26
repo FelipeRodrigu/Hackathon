@@ -1,0 +1,95 @@
+.headerSection{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: #233DB6 2px solid;
+}
+
+.headerLogo{
+    margin-left: 30px;
+    height: 35%;
+    width: auto;
+    padding: 10px 20px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 20px 0px #233DB6;
+}
+
+.headerLogo img{
+    height: 100%;
+    width: 100%;
+}
+
+.headerNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    margin-right: 40px;
+}
+
+.headerNav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.headerNav ul li{
+    list-style: none;
+    margin-right: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #233DB6;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: "Fira Sans", serif;
+    border: #233DB6 1px solid;
+}
+
+.headerNav ul li:hover{
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+.headerNav ul li:hover a{
+    color: #233DB6;
+}
+
+.headerNav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.headerNav ul li.addNews {
+    background-color: #FF7420;
+    color: #fff;
+    border: #FF7420 1px solid;
+}
+
+.headerNav ul li.addNews:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border: #FF7420 1px solid;
+}
+
+.addNews button{
+    background-color: #FF7420;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: "Fira Sans", serif;
+}
+
+.addNews:hover button{
+    background-color: #fff;
+    color: #FF7420;
+}
