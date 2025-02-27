@@ -81,4 +81,4 @@ Para mais informações, entre em contato através do email: [felipe028pereira@h
 
 ---
 
-Desenvolvido por Felipe Rodrigues Pereira para o Hackathon Challenge.
+Desenvolvido por Felipe Rodrigues Pereira e Matheus Toshio Mizuta para o Hackathon Challenge.
