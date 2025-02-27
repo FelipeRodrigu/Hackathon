@@ -1,6 +1,6 @@
 # Byte News
 
-Byte News é um site de notícias tecnológicas desenvolvido como parte do Hackathon Challenge. Este projeto foi criado por Felipe Rodrigues Pereira, aluno do curso DEV Foundations.
+Byte News é um site de notícias tecnológicas desenvolvido como parte do Hackathon Challenge. Este projeto foi criado pelo o grupo 15, Felipe Rodrigues e Matheus Toshio, alunos do curso DEV Foundations.
 
 ## Visão Geral
 
